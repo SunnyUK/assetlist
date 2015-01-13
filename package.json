@@ -1,0 +1,14 @@
+{
+    "scripts": {
+        "start": "node app.js",
+        "postinstall": "npm install -g bower && bower install"
+    },
+    "dependencies": {
+        "dragonnodejs": "3.*",
+        "dragonnodejs-webserver": "4.*"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dragonprojects/assetlist.git"
+    }
+}
