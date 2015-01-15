@@ -4,8 +4,8 @@
         "postinstall": "npm install -g bower && bower install"
     },
     "dependencies": {
-        "dragonnodejs": "3.*",
-        "dragonnodejs-webserver": "4.*"
+        "dragonnodejs": "~3.0.3",
+        "dragonnodejs-webserver": "~4.2.0"
     },
     "repository": {
         "type": "git",
