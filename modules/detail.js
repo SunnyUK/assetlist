@@ -18,7 +18,7 @@ module.exports = function (config, libraries, services) {
         },
         function (req, res) {
             config.asset = config.assets[req.params.id];
-            res.render('detail', config);
+            res.render('detail.twig', config);
         }
     );
 };
