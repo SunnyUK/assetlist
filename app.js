@@ -23,7 +23,7 @@ var config = {
                     password: process.env.AUTH_PASSWORD
                 },
                 bower: {
-                    libraries: [],
+                    libraries: ['jquery', 'bootstrap'],
                     path: __dirname + '/bower_components/'
                 },
                 header: {
