@@ -1,0 +1,32 @@
+body {
+    font-family: Comic Sans MS, cursive;
+    font-style: italic;
+    background-color: black;
+    color: goldenrod;
+}
+
+a {
+    text-decoration: none;
+    color: goldenrod;
+}
+a:hover {
+    text-decoration: none;
+    color: goldenrod;
+}
+
+h1, h2 {
+    margin-top: 20px;
+}
+
+p {
+    font-size: large;
+}
+
+ul.icons {
+    list-style: none;
+    display: inline-flex;
+}
+
+ul.icons li {
+    padding: 20px;
+}

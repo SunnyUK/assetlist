@@ -1,1 +1,77 @@
-{}
+{
+  "birdy_birdy": {
+    "artist": "Birdy",
+    "cover": "birdy/birdy300x300.jpg",
+    "album": {
+      "title": "Birdy (Deluxe Edition)",
+      "publish": "04.11.2011",
+      "label": "Warner Bros. Records",
+      "genre": "Indie Pop",
+      "length": "59:26"
+    },
+    "tracks": [
+      { "title": "1901" },
+      { "title": "Skinny Love" },
+      { "title": "People help the People" },
+      { "title": "White Winter Hymnal" },
+      { "title": "The District sleeps alone Tonight" },
+      { "title": "I´ll never forget you" },
+      { "title": "Young Blood" },
+      { "title": "Shelter" },
+      { "title": "Fire and Rain" },
+      { "title": "without a Word" },
+      { "title": "Terrible Love" },
+      { "title": "Comforting Sounds" },
+      { "title": "Farewell and Goodnight" },
+      { "title": "People help the People (RAK Studios Session" }
+    ],
+    "infolinks": [
+      {
+        "link": "http://officialbirdy.com/?loc=",
+        "logo": "birdy.png"
+      },
+      {
+        "link": "http://de.wikipedia.org/wiki/Birdy_%28S%C3%A4ngerin%29",
+        "logo": "wikipedia.png"
+      },
+      {
+        "link": "https://www.facebook.com/BirdyMusic",
+        "logo": "facebook.png"
+      },
+      {
+        "link": "https://twitter.com/officialbirdy",
+        "logo": "twitter.png"
+      },
+      {
+        "link": "http://instagram.com/birdyinstagram",
+        "logo": "instagram.png"
+      },
+      {
+        "link": "https://www.youtube.com/user/OfficialBirdy",
+        "logo": "youtube.png"
+      }
+    ],
+    "shoplinks": [
+      {
+        "link": "http://www.amazon.de/Birdy-Deluxe-Version/dp/B00LZEUHZS",
+        "logo": "amazonmp3.png"
+      },
+      {
+        "link": "https://itunes.apple.com/de/album/birdy-deluxe-version/id473844950",
+        "logo": "itunes.png"
+      },
+      {
+        "link": "https://play.google.com/store/music/album/Birdy_Birdy_Deluxe_Version?id=B6dm7e5ucnmov6xd53mkutnmjjq",
+        "logo": "googleplay.png"
+      },
+      {
+        "link": "https://play.spotify.com/album/3sGzkurA1fvEFqh73sWCVA",
+        "logo": "spotify.png"
+      },
+      {
+        "link": "http://www.deezer.com/album/1315768",
+        "logo": "deezer.png"
+      }
+    ]
+  }
+}

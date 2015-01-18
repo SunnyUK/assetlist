@@ -1,7 +1,62 @@
 {% extends 'layout.twig' %}
 
-{% block title %}{% endblock %}
+{% block title %}
+    {{ asset.artist }} - {{ asset.album.title }} |
+{% endblock %}
 
-{% block description %}{% endblock %}
+{% block content %}
+    <div class="container">
+        <a href="/">{{ language.back }}</a>
 
-{% block content %}{% endblock %}
+        <h1>{{ asset.artist }} - {{ asset.album.title }}</h1>
+
+        <div class="row">
+            <div class="col-md-7">
+
+                <img src="/img/cover/{{ asset.cover }}">
+                <h2>{{ language.albuminformations }}:</h2>
+                <ul>
+                    {% for key, information in asset.album %}
+                        <li>{{ language.album[key] }}: {{ information }}</li>
+                    {% endfor %}
+                </ul>
+
+            </div>
+            <div class="col-md-5">
+
+                <h2>{{ language.trackorder }}:</h2>
+                <ol>
+                    {% for track in asset.tracks %}
+                        <li>{{ track.title }}</li>
+                    {% endfor %}
+                </ol>
+
+            </div>
+        </div>
+
+        <h2>{{ language.moreinfo|replace('%artist%', asset.artist) }}:</h2>
+        <ul class="icons">
+            {% for infolink in asset.infolinks %}
+                <li>
+                    <a href="{{ infolink.link }}">
+                        <img src="/img/logo/{{ infolink.logo }}">
+                    </a>
+                </li>
+            {% endfor %}
+        </ul>
+
+        <h2>{{ language.albumpurchase }}:</h2>
+        <ul class="icons">
+            {% for shoplink in asset.shoplinks %}
+            <li>
+                <a href="{{ shoplink.link }}">
+                    <img src="/img/logo/{{ shoplink.logo }}">
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+
+        <br>
+        <a href="/">{{ language.back }}</a>
+    </div>
+{% endblock %}

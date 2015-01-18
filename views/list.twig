@@ -1,5 +1,27 @@
 {% extends 'layout.twig' %}
 
-{% block description %}{% endblock %}
+{% block content %}
+<h1> {{ language.ultimate}}</h1>
 
-{% block content %}{% endblock %}
+<ol>
+    <li class="hauptseite">
+        <a href="/birdy_birdy">
+            <img src="img/cover/birdy/birdy200x200.jpg">
+            <br> Mehr Informationen zum Album und über Birdy
+        </a>
+    </li>
+    <li class="hauptseite">
+        <a href="tracklist/tracklist_muse.html">
+            <img src="img/cover/muse/muse200x200.jpg">
+            <br>Mehr Informationen zum Album und über Muse
+        </a>
+    </li>
+    <li class="hauptseite">
+        <a href="tracklist/tracklist_enya.html">
+            <img src="img/cover/enya/enya200x200.jpg">
+            <br>Mehr Informationen zum Album und über Enya
+        </a>
+    </li>
+</ol>
+
+{% endblock %}

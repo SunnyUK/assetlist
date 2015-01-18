@@ -1,3 +1,16 @@
 {
-    "language": "de"
+    "language": "de",
+    "back": "Zurück zur Startseite",
+    "albuminformations": "Informationen zum Album",
+    "trackorder": "Titelreihenfolge",
+    "moreinfo": "Informationen über %artist%",
+    "albumpurchase": "Album erwerben",
+    "ultimate": "Meine ultimative Top 3 der besten Alben",
+    "album": {
+        "title": "Titel",
+        "publish": "Erscheinungsdatum",
+        "label": "Label",
+        "genre": "Genre",
+        "length": "Gesamtlänge"
+    }
 }
