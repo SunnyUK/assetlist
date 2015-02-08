@@ -27,6 +27,24 @@ ul.icons {
     display: inline-flex;
 }
 
-ul.icons li {
+ul.icons li{
     padding: 20px;
+}
+
+ol.startseite {
+    ;
+
+}
+
+li.hauptseite {
+    border-color: #000000;
+    border-width: 40px;
+    border-style: groove;
+    background-color: #000000;
+    margin: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 3%;
+
+
 }
